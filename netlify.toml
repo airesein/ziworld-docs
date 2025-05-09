@@ -1,0 +1,10 @@
+[build]
+  command = "hugo --gc --minify"
+  publish = "public"
+
+[build.environment]
+  GO_VERSION = "1.19"
+  HUGO_VERSION = "0.147.2"
+  CGO_ENABLED = "1"  
+  HUGO_BUILD_TAGS = "extended"  
+
