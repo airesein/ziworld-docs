@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>练习 on 笔记</title>
+    <link>http://localhost:1313/docs/parent-java/parent-%E7%BB%83%E4%B9%A0/</link>
+    <description>Recent content in 练习 on 笔记</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/docs/parent-java/parent-%E7%BB%83%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Application.java</title>
+      <link>http://localhost:1313/docs/parent-java/parent-%E7%BB%83%E4%B9%A0/%E5%AE%9E%E9%AA%8C5/application/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/parent-java/parent-%E7%BB%83%E4%B9%A0/%E5%AE%9E%E9%AA%8C5/application/</guid>
+      <description>&lt;div class=&#34;prism-codeblock &#34;&gt;&#xA;  &lt;pre id=&#34;0c2aa56&#34; class=&#34;language-java &#34;&gt;&#xA;  &lt;code&gt;abstract class Animal{&#xD;&#xA;    public abstract void cry();&#xD;&#xA;    public abstract String getAnimalName();&#xD;&#xA;}&#xD;&#xA;class Simulator{&#xD;&#xA;    void playSound(Animal animal){&#xD;&#xA;        animal.cry();&#xD;&#xA;        System.out.println(animal.getAnimalName());&#xD;&#xA;    }&#xD;&#xA;}&#xD;&#xA;class Dog extends Animal{&#xD;&#xA;    public void cry(){&#xD;&#xA;        System.out.println(&amp;#34;汪汪汪&amp;#34;);&#xD;&#xA;    }&#xD;&#xA;    public String getAnimalName(){&#xD;&#xA;        return &amp;#34;Dog&amp;#34;;&#xD;&#xA;    }&#xD;&#xA;}&#xD;&#xA;class Cat extends Animal{&#xD;&#xA;    public void cry(){&#xD;&#xA;        System.out.println(&amp;#34;喵喵喵&amp;#34;);&#xD;&#xA;    }&#xD;&#xA;    public String getAnimalName(){&#xD;&#xA;        return &amp;#34;Cat&amp;#34;;&#xD;&#xA;    }&#xD;&#xA;}&#xD;&#xA;public class Application{&#xD;&#xA;    public static void main(String[] arg){&#xD;&#xA;        Simulator simulator=new Simulator();&#xD;&#xA;        simulator.playSound(new Dog());&#xD;&#xA;        simulator.playSound(new Cat());&#xD;&#xA;    }&#xD;&#xA;}&lt;/code&gt;&#xA;  &lt;/pre&gt;&#xA;  &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Ex.java</title>
+      <link>http://localhost:1313/docs/parent-java/parent-%E7%BB%83%E4%B9%A0/5-2/ex/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/parent-java/parent-%E7%BB%83%E4%B9%A0/5-2/ex/</guid>
+      <description>&lt;div class=&#34;prism-codeblock &#34;&gt;&#xA;  &lt;pre id=&#34;80e0103&#34; class=&#34;language-java &#34;&gt;&#xA;  &lt;code&gt;class Vehicle{&#xD;&#xA;    String brand;&#xD;&#xA;    double speed;&#xD;&#xA;    Vehicle(){&#xD;&#xA;       brand=&amp;#34;耐地&amp;#34;;&#xD;&#xA;       speed=6;&#xD;&#xA;    }&#xD;&#xA;    void displayInfo(){&#xD;&#xA;        System.out.print(&amp;#34;品牌:&amp;#34;&amp;#43;brand&amp;#43;&amp;#34; 速度:&amp;#34;&amp;#43;speed&amp;#43;&amp;#39;\n&amp;#39;);&#xD;&#xA;    }  &#xD;&#xA;}&#xD;&#xA;class Car extends Vehicle{&#xD;&#xA;    int numDoors=4;&#xD;&#xA;    void displayInfo(){&#xD;&#xA;        System.out.print(&amp;#34;品牌:&amp;#34;&amp;#43;brand&amp;#43;&amp;#34; 速度:&amp;#34;&amp;#43;speed&amp;#43;&amp;#34; 车门数量:&amp;#34;&amp;#43;numDoors&amp;#43;&amp;#39;\n&amp;#39;);&#xD;&#xA;    }  &#xD;&#xA;}&#xD;&#xA;class Bicycle extends Vehicle{&#xD;&#xA;    boolean isMountainBike=true;&#xD;&#xA;    void displayInfo(){&#xD;&#xA;        System.out.print(&amp;#34;品牌:&amp;#34;&amp;#43;brand&amp;#43;&amp;#34; 速度:&amp;#34;&amp;#43;speed&amp;#43;&amp;#34; 是否为山地车:&amp;#34;&amp;#43;isMountainBike&amp;#43;&amp;#39;\n&amp;#39;);&#xD;&#xA;    }  &#xD;&#xA;}&#xD;&#xA;public class Ex{&#xD;&#xA;    public static void main(String arg[]){&#xD;&#xA;        Car a=new Car();&#xD;&#xA;        Bicycle b=new Bicycle();&#xD;&#xA;        a.displayInfo();&#xD;&#xA;        b.displayInfo();&#xD;&#xA;    }&#xD;&#xA;}&lt;/code&gt;&#xA;  &lt;/pre&gt;&#xA;  &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>jc.java</title>
+      <link>http://localhost:1313/docs/parent-java/parent-%E7%BB%83%E4%B9%A0/%E7%AC%AC%E4%B8%89%E7%AB%A0%E5%B0%8F%E7%BB%93/jc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/parent-java/parent-%E7%BB%83%E4%B9%A0/%E7%AC%AC%E4%B8%89%E7%AB%A0%E5%B0%8F%E7%BB%93/jc/</guid>
+      <description>&lt;div class=&#34;prism-codeblock &#34;&gt;&#xA;  &lt;pre id=&#34;ce9c36a&#34; class=&#34;language-java &#34;&gt;&#xA;  &lt;code&gt;//10的阶层&#xD;&#xA;public class  jc{&#xD;&#xA;    public static void main(String[] args){&#xD;&#xA;        int sum=0,t=1;&#xD;&#xA;        for(int i=1;i&amp;lt;=10;i&amp;#43;&amp;#43;){&#xD;&#xA;            t=t*i;&#xD;&#xA;            sum=sum&amp;#43;t;&#xD;&#xA;&#xD;&#xA;        }&#xD;&#xA;        System.out.println(&amp;#34;1!&amp;#43;2!&amp;#43;3!&amp;#43;...&amp;#43;10!=&amp;#34;&amp;#43;sum);&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;    }&#xD;&#xA;}&lt;/code&gt;&#xA;  &lt;/pre&gt;&#xA;  &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>ss.java</title>
+      <link>http://localhost:1313/docs/parent-java/parent-%E7%BB%83%E4%B9%A0/%E7%AC%AC%E4%B8%89%E7%AB%A0%E5%B0%8F%E7%BB%93/ss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/parent-java/parent-%E7%BB%83%E4%B9%A0/%E7%AC%AC%E4%B8%89%E7%AB%A0%E5%B0%8F%E7%BB%93/ss/</guid>
+      <description>&lt;div class=&#34;prism-codeblock &#34;&gt;&#xA;  &lt;pre id=&#34;4329e5f&#34; class=&#34;language-java &#34;&gt;&#xA;  &lt;code&gt;public class ss {&#xD;&#xA;    public static void main(String[] args) {&#xD;&#xA;        System.out.print(&amp;#34;100 以内的素数：&amp;#34;);&#xD;&#xA;        for (int i = 2; i &amp;lt;= 100; i&amp;#43;&amp;#43;) {&#xD;&#xA;            boolean pd = true;&#xD;&#xA;            for (int j = 2; j &amp;lt;= i/2; j&amp;#43;&amp;#43;) {&#xD;&#xA;                if (i % j == 0) {&#xD;&#xA;                    pd = false;&#xD;&#xA;                    break;&#xD;&#xA;                }&#xD;&#xA;            }&#xD;&#xA;            if (pd) {&#xD;&#xA;                System.out.print(i &amp;#43; &amp;#34;、&amp;#34;);&#xD;&#xA;            }&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;}    &lt;/code&gt;&#xA;  &lt;/pre&gt;&#xA;  &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>sz.java</title>
+      <link>http://localhost:1313/docs/parent-java/parent-%E7%BB%83%E4%B9%A0/%E7%AC%AC%E4%B8%89%E7%AB%A0%E5%B0%8F%E7%BB%93/sz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/parent-java/parent-%E7%BB%83%E4%B9%A0/%E7%AC%AC%E4%B8%89%E7%AB%A0%E5%B0%8F%E7%BB%93/sz/</guid>
+      <description>&lt;div class=&#34;prism-codeblock &#34;&gt;&#xA;  &lt;pre id=&#34;7b53a54&#34; class=&#34;language-java &#34;&gt;&#xA;  &lt;code&gt;public class sz {&#xD;&#xA;    public static void main(String[] args) {&#xD;&#xA;       int a[]=new int[3];&#xD;&#xA;        a[0]=10;&#xD;&#xA;        a[1]=11;&#xD;&#xA;        a[2]=12;&#xD;&#xA;        System.out.println(a[0]);&#xD;&#xA;    }&#xD;&#xA;}    &lt;/code&gt;&#xA;  &lt;/pre&gt;&#xA;  &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Test.java</title>
+      <link>http://localhost:1313/docs/parent-java/parent-%E7%BB%83%E4%B9%A0/4-2/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/parent-java/parent-%E7%BB%83%E4%B9%A0/4-2/test/</guid>
+      <description>&lt;div class=&#34;prism-codeblock &#34;&gt;&#xA;  &lt;pre id=&#34;ea9b787&#34; class=&#34;language-java &#34;&gt;&#xA;  &lt;code&gt;class Person{&#xD;&#xA;    Person(){&#xD;&#xA;        System.out.println(&amp;#34;无参的构造方法被调用了&amp;#34;);&#xD;&#xA;    }&#xD;&#xA;}&#xD;&#xA;public class Test{&#xD;&#xA;    public static void main(String[] args){&#xD;&#xA;        Person pp=new Person();&#xD;&#xA;&#xD;&#xA;    }&#xD;&#xA;}&lt;/code&gt;&#xA;  &lt;/pre&gt;&#xA;  &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Test.java</title>
+      <link>http://localhost:1313/docs/parent-java/parent-%E7%BB%83%E4%B9%A0/p123-5/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/parent-java/parent-%E7%BB%83%E4%B9%A0/p123-5/test/</guid>
+      <description>&lt;div class=&#34;prism-codeblock &#34;&gt;&#xA;  &lt;pre id=&#34;1f84e5f&#34; class=&#34;language-java &#34;&gt;&#xA;  &lt;code&gt;//PC CPU HardDisk Test&#xD;&#xA;class CPU{&#xD;&#xA;    int speed;&#xD;&#xA;    void setSpeed(int m){&#xD;&#xA;        speed=m;&#xD;&#xA;    }&#xD;&#xA;    int getSpeed(){&#xD;&#xA;        return speed;&#xD;&#xA;    }&#xD;&#xA;}&#xD;&#xA;class HardDisk{&#xD;&#xA;    int amount;&#xD;&#xA;    void setAmount(int m){&#xD;&#xA;        amount=m;&#xD;&#xA;    }&#xD;&#xA;    int getAmount(){&#xD;&#xA;        return amount;&#xD;&#xA;    }&#xD;&#xA;}&#xD;&#xA;class PC{&#xD;&#xA;    CPU cpu;&#xD;&#xA;    HardDisk HD;&#xD;&#xA;    void setCPU(CPU c){&#xD;&#xA;        cpu=c;&#xD;&#xA;    }&#xD;&#xA;    void setHardDisk(HardDisk h){&#xD;&#xA;        HD=h;&#xD;&#xA;    }&#xD;&#xA;    void show(){&#xD;&#xA;        System.out.printf(&amp;#34;CPU的速度：%d 硬盘的容量：%d&amp;#34;,cpu.getSpeed(),HD.getAmount());&#xD;&#xA;    }&#xD;&#xA;}&#xD;&#xA;public class Test{&#xD;&#xA;    public static void main(String[] args){&#xD;&#xA;        CPU cpu=new CPU();&#xD;&#xA;        cpu.setSpeed(2200);&#xD;&#xA;        HardDisk disk=new HardDisk();&#xD;&#xA;        disk.setAmount(200);&#xD;&#xA;        PC pc=new PC();&#xD;&#xA;        pc.setCPU(cpu);&#xD;&#xA;        pc.setHardDisk(disk);&#xD;&#xA;        pc.show();&#xD;&#xA;    }&#xD;&#xA;}&lt;/code&gt;&#xA;  &lt;/pre&gt;&#xA;  &lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

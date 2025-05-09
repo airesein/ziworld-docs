@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>java05 参数传值 on 笔记</title>
+    <link>http://localhost:1313/docs/parent-java/parent-java05-%E5%8F%82%E6%95%B0%E4%BC%A0%E5%80%BC/</link>
+    <description>Recent content in java05 参数传值 on 笔记</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/docs/parent-java/parent-java05-%E5%8F%82%E6%95%B0%E4%BC%A0%E5%80%BC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ex - 副本.java</title>
+      <link>http://localhost:1313/docs/parent-java/parent-java05-%E5%8F%82%E6%95%B0%E4%BC%A0%E5%80%BC/%E4%BE%8B%E5%AD%90/ex---%E5%89%AF%E6%9C%AC/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/parent-java/parent-java05-%E5%8F%82%E6%95%B0%E4%BC%A0%E5%80%BC/%E4%BE%8B%E5%AD%90/ex---%E5%89%AF%E6%9C%AC/</guid>
+      <description>&lt;div class=&#34;prism-codeblock &#34;&gt;&#xA;  &lt;pre id=&#34;f7f831e&#34; class=&#34;language-java &#34;&gt;&#xA;  &lt;code&gt;&#xD;&#xA;class Cube {&#xD;&#xA;    Area mj;&#xD;&#xA;    void setMj(Area c) {&#xD;&#xA;        mj = c;&#xD;&#xA;    }&#xD;&#xA;    void set(int x) {&#xD;&#xA;        mj.set(x);&#xD;&#xA;    }&#xD;&#xA;    int solve() {&#xD;&#xA;        int sideArea = mj.solve();&#xD;&#xA;        return sideArea * sideArea * sideArea;&#xD;&#xA;    }&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;class Area {&#xD;&#xA;    int a = -1;&#xD;&#xA;    void set(int x) {&#xD;&#xA;        a = x;&#xD;&#xA;    }&#xD;&#xA;    int solve() {&#xD;&#xA;        if (a == -1) {&#xD;&#xA;            return 0;&#xD;&#xA;        } else {&#xD;&#xA;            return a * a;&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;public class Ex {&#xD;&#xA;    public static void main(String[] args){&#xD;&#xA;        Cube m = new Cube();&#xD;&#xA;        Area area = new Area();&#xD;&#xA;        m.setMj(area);&#xD;&#xA;        m.set(10);&#xD;&#xA;        int x = m.solve();&#xD;&#xA;        System.out.println(x);&#xD;&#xA;    }&#xD;&#xA;}    &lt;/code&gt;&#xA;  &lt;/pre&gt;&#xA;  &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Ex.java</title>
+      <link>http://localhost:1313/docs/parent-java/parent-java05-%E5%8F%82%E6%95%B0%E4%BC%A0%E5%80%BC/%E4%BE%8B%E5%AD%90/ex/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/parent-java/parent-java05-%E5%8F%82%E6%95%B0%E4%BC%A0%E5%80%BC/%E4%BE%8B%E5%AD%90/ex/</guid>
+      <description>&lt;div class=&#34;prism-codeblock &#34;&gt;&#xA;  &lt;pre id=&#34;74f73a6&#34; class=&#34;language-java &#34;&gt;&#xA;  &lt;code&gt;class Cube {&#xD;&#xA;    Area mj;&#xD;&#xA;    void setMj(Area c) {&#xD;&#xA;        mj = c;&#xD;&#xA;    }&#xD;&#xA;    void set(int x) {&#xD;&#xA;        mj.set(x);&#xD;&#xA;    }&#xD;&#xA;    int solve() {&#xD;&#xA;        int sideArea = mj.solve();&#xD;&#xA;        return sideArea * mj.a;&#xD;&#xA;    }&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;class Area {&#xD;&#xA;    int a = -1;&#xD;&#xA;    void set(int x) {&#xD;&#xA;        a = x;&#xD;&#xA;    }&#xD;&#xA;    int solve() {&#xD;&#xA;        if (a == -1) {&#xD;&#xA;            return 0;&#xD;&#xA;        } else {&#xD;&#xA;            return a * a;&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;public class Ex {&#xD;&#xA;    public static void main(String[] args){&#xD;&#xA;        Cube m = new Cube();&#xD;&#xA;        Area area = new Area();&#xD;&#xA;        m.setMj(area);&#xD;&#xA;        m.set(4);&#xD;&#xA;        int x = m.solve();&#xD;&#xA;        System.out.println(x);&#xD;&#xA;    }&#xD;&#xA;}    &lt;/code&gt;&#xA;  &lt;/pre&gt;&#xA;  &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Ex2.java</title>
+      <link>http://localhost:1313/docs/parent-java/parent-java05-%E5%8F%82%E6%95%B0%E4%BC%A0%E5%80%BC/%E4%BE%8B%E5%AD%90/ex2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/parent-java/parent-java05-%E5%8F%82%E6%95%B0%E4%BC%A0%E5%80%BC/%E4%BE%8B%E5%AD%90/ex2/</guid>
+      <description>&lt;div class=&#34;prism-codeblock &#34;&gt;&#xA;  &lt;pre id=&#34;e4f4dee&#34; class=&#34;language-java &#34;&gt;&#xA;  &lt;code&gt;class Circle{&#xD;&#xA;    double radius;&#xD;&#xA;    double findArea(double r){&#xD;&#xA;        radius=r;&#xD;&#xA;        return 3.14*radius*radius;&#xD;&#xA;    }&#xD;&#xA;}&#xD;&#xA;class PassObject{&#xD;&#xA;    Circle a;&#xD;&#xA;    public void printAreas(Circle c,int time){&#xD;&#xA;        a=c;&#xD;&#xA;        for(double i=1;i&amp;lt;=time;i&amp;#43;&amp;#43;){&#xD;&#xA;            System.out.printf(&amp;#34;半径:%f  面积:%f\n&amp;#34;,i,a.findArea(i)); &#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;}&#xD;&#xA;public class Ex2{&#xD;&#xA;    public static void main(String[] arg){&#xD;&#xA;        PassObject a=new PassObject();&#xD;&#xA;        Circle c=new Circle();&#xD;&#xA;        a.printAreas(c,5);&#xD;&#xA;    }&#xD;&#xA;}&lt;/code&gt;&#xA;  &lt;/pre&gt;&#xA;  &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>参数传值</title>
+      <link>http://localhost:1313/docs/parent-java/parent-java05-%E5%8F%82%E6%95%B0%E4%BC%A0%E5%80%BC/%E5%8F%82%E6%95%B0/%E5%8F%82%E6%95%B0%E4%BC%A0%E5%80%BC/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/parent-java/parent-java05-%E5%8F%82%E6%95%B0%E4%BC%A0%E5%80%BC/%E5%8F%82%E6%95%B0/%E5%8F%82%E6%95%B0%E4%BC%A0%E5%80%BC/</guid>
+      <description>&lt;h2 id=&#34;引用值-实体值&#34;&gt;引用值 实体值 &lt;a href=&#34;#%e5%bc%95%e7%94%a8%e5%80%bc-%e5%ae%9e%e4%bd%93%e5%80%bc&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;引用值&#x9;0XABC&lt;/p&gt;&#xA;&lt;p&gt;实体 123&lt;/p&gt;&#xA;&lt;p&gt;引用数据类型（如 &lt;code&gt;Object&lt;/code&gt;、&lt;code&gt;Array&lt;/code&gt; 等）在参数传递时，传递的是对象引用的副本。尽管是副本，但它和原始引用指向同一个对象。所以，在方法内部对对象状态的修改，会影响到方法外部的对象。&lt;/p&gt;&#xA;&lt;h2 id=&#34;可变参数&#34;&gt;可变参数 &lt;a href=&#34;#%e5%8f%af%e5%8f%98%e5%8f%82%e6%95%b0&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;1至m,即x[0],x[1]&amp;hellip;x[m-1]&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;  &#xA;&#xA;  &#xA;  &#xA;  &#xA;  &#xA;&#xA;  &#xA;&#xA;  &lt;div class=&#34;prism-codeblock &#34;&gt;&#xA;  &lt;pre id=&#34;f18ff08&#34; class=&#34;language-java &#34;&gt;&#xA;  &lt;code&gt;public int getSum(int...x){&#xD;&#xA;    for(int i=0,m=0;i&amp;lt;10;i&amp;#43;&amp;#43;)&#xD;&#xA;    {&#xD;&#xA;        sum=sum&amp;#43;x[i];&#xD;&#xA;    }&#xD;&#xA;}&lt;/code&gt;&#xA;  &lt;/pre&gt;&#xA;  &lt;/div&gt;&#xA;&lt;h2 id=&#34;黑盒引用对象的组合&#34;&gt;黑盒引用（对象的组合） &lt;a href=&#34;#%e9%bb%91%e7%9b%92%e5%bc%95%e7%94%a8%e5%af%b9%e8%b1%a1%e7%9a%84%e7%bb%84%e5%90%88&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;一个类可以把对象作为自己的组成部分&lt;/p&gt;&#xA;&lt;h1 id=&#34;关系&#34;&gt;关系 &lt;a href=&#34;#%e5%85%b3%e7%b3%bb&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;关联关系：成员变量&lt;/p&gt;&#xA;&lt;p&gt;依赖关系：方法的参数&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>第6章例题 on 笔记</title>
+    <link>http://localhost:1313/docs/parent-java/parent-%E7%BB%83%E4%B9%A0/parent-%E7%AC%AC6%E7%AB%A0%E4%BE%8B%E9%A2%98/</link>
+    <description>Recent content in 第6章例题 on 笔记</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/docs/parent-java/parent-%E7%BB%83%E4%B9%A0/parent-%E7%AC%AC6%E7%AB%A0%E4%BE%8B%E9%A2%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ex6_1.java</title>
+      <link>http://localhost:1313/docs/parent-java/parent-%E7%BB%83%E4%B9%A0/parent-%E7%AC%AC6%E7%AB%A0%E4%BE%8B%E9%A2%98/1/ex6_1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/parent-java/parent-%E7%BB%83%E4%B9%A0/parent-%E7%AC%AC6%E7%AB%A0%E4%BE%8B%E9%A2%98/1/ex6_1/</guid>
+      <description>&lt;div class=&#34;prism-codeblock &#34;&gt;&#xA;  &lt;pre id=&#34;ebed164&#34; class=&#34;language-java &#34;&gt;&#xA;  &lt;code&gt;interface Com{&#xD;&#xA;    public static final int MAX=100;&#xD;&#xA;    public abstract void on();&#xD;&#xA;    public abstract float sum(float x,float y);&#xD;&#xA;    default int max(int a,int b){&#xD;&#xA;        outPutJava();&#xD;&#xA;        return a&amp;gt;b?a:b;&#xD;&#xA;    }&#xD;&#xA;    public static void f(){&#xD;&#xA;        System.out.println(&amp;#34;注意是从JAVA SE 8 开始的&amp;#34;);&#xD;&#xA;&#xD;&#xA;    }&#xD;&#xA;     public static void outPutJava(){&#xD;&#xA;        System.out.println(&amp;#34;Java&amp;#34;);&#xD;&#xA;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;}&#xD;&#xA;class AAA implements Com{&#xD;&#xA;    public void on(){&#xD;&#xA;        System.out.println(&amp;#34;打开电视&amp;#34;);&#xD;&#xA;    }&#xD;&#xA;    public float sum(float x,float y){&#xD;&#xA;        return x&amp;#43;y;&#xD;&#xA;    }&#xD;&#xA;}&#xD;&#xA;public class Ex6_1{&#xD;&#xA;    public static void main(String args[]){&#xD;&#xA;        AAA a =new AAA();&#xD;&#xA;        System.out.println(&amp;#34;接口中的常量&amp;#34;&amp;#43;AAA.MAX);&#xD;&#xA;        System.out.println(&amp;#34;调用on方法（重写的）：&amp;#34;);&#xD;&#xA;        a.on();&#xD;&#xA;        System.out.println(&amp;#34;调用sum方法（重写的）&amp;#34;&amp;#43;a.sum(12,18));&#xD;&#xA;        System.out.println(&amp;#34;调用接口提供的default方法&amp;#34;&amp;#43;a.max(12,78));&#xD;&#xA;        Com.f();&#xD;&#xA;&#xD;&#xA;    }&#xD;&#xA;}&lt;/code&gt;&#xA;  &lt;/pre&gt;&#xA;  &lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

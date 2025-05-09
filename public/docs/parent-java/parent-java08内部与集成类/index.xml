@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>java08内部与集成类 on 笔记</title>
+    <link>http://localhost:1313/docs/parent-java/parent-java08%E5%86%85%E9%83%A8%E4%B8%8E%E9%9B%86%E6%88%90%E7%B1%BB/</link>
+    <description>Recent content in java08内部与集成类 on 笔记</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/docs/parent-java/parent-java08%E5%86%85%E9%83%A8%E4%B8%8E%E9%9B%86%E6%88%90%E7%B1%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Niming.java</title>
+      <link>http://localhost:1313/docs/parent-java/parent-java08%E5%86%85%E9%83%A8%E4%B8%8E%E9%9B%86%E6%88%90%E7%B1%BB/%E7%BB%83%E4%B9%A0/niming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/parent-java/parent-java08%E5%86%85%E9%83%A8%E4%B8%8E%E9%9B%86%E6%88%90%E7%B1%BB/%E7%BB%83%E4%B9%A0/niming/</guid>
+      <description>&lt;div class=&#34;prism-codeblock &#34;&gt;&#xA;  &lt;pre id=&#34;d8fb69e&#34; class=&#34;language-java &#34;&gt;&#xA;  &lt;code&gt;abstract class Bank{&#xD;&#xA;    int money;&#xD;&#xA;    public  Bank(){&#xD;&#xA;        money=100;&#xD;&#xA;    }&#xD;&#xA;    public Bank(int money){&#xD;&#xA;        this.money=money;&#xD;&#xA;    }&#xD;&#xA;    public abstract void output();&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;    &#xD;&#xA;}&#xD;&#xA;class ShowBank{&#xD;&#xA;    void showMess(Bank bank){&#xD;&#xA;        bank.output();&#xD;&#xA;    }&#xD;&#xA;}&#xD;&#xA;public class Niming{&#xD;&#xA;    public static void main(String[] args){&#xD;&#xA;        ShowBank showBank=new ShowBank();&#xD;&#xA;        showBank.showMess(new Bank(200){&#xD;&#xA;            public void output(){&#xD;&#xA;                money&amp;#43;=100;&#xD;&#xA;                System.out.printf(&amp;#34;资金：&amp;#34;&amp;#43;&amp;#34;%d&amp;#34;,money);&#xD;&#xA;            }&#xD;&#xA;        });&#xD;&#xA;    }&#xD;&#xA;}&lt;/code&gt;&#xA;  &lt;/pre&gt;&#xA;  &lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

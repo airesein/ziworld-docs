@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>java04 类对象方法 on 笔记</title>
+    <link>http://localhost:1313/docs/parent-java/parent-java04-%E7%B1%BB%E5%AF%B9%E8%B1%A1%E6%96%B9%E6%B3%95/</link>
+    <description>Recent content in java04 类对象方法 on 笔记</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/docs/parent-java/parent-java04-%E7%B1%BB%E5%AF%B9%E8%B1%A1%E6%96%B9%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>es.java</title>
+      <link>http://localhost:1313/docs/parent-java/parent-java04-%E7%B1%BB%E5%AF%B9%E8%B1%A1%E6%96%B9%E6%B3%95/%E4%BE%8B%E5%AD%90/es/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/parent-java/parent-java04-%E7%B1%BB%E5%AF%B9%E8%B1%A1%E6%96%B9%E6%B3%95/%E4%BE%8B%E5%AD%90/es/</guid>
+      <description>&lt;div class=&#34;prism-codeblock &#34;&gt;&#xA;  &lt;pre id=&#34;2fb88ee&#34; class=&#34;language-java &#34;&gt;&#xA;  &lt;code&gt;class Qiu{&#xD;&#xA;    int x,y,z;&#xD;&#xA;    Qiu(int a){&#xD;&#xA;        x=a;&#xD;&#xA;&#xD;&#xA;    }&#xD;&#xA;    &#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;public class es{&#xD;&#xA;    public static void main(String[] args){&#xD;&#xA;        Xiyou sun;&#xD;&#xA;        sun=new Xiyou();&#xD;&#xA;        sun.y=10;&#xD;&#xA;        System.out.println(sun.x);&#xD;&#xA;         System.out.println(sun.y);&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;}&lt;/code&gt;&#xA;  &lt;/pre&gt;&#xA;  &lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>
